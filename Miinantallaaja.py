@@ -85,6 +85,7 @@ def luo_kentat():
     tila["kentta"] = kentta
 
 def miinoita():
+# Miinoittaa pelikentän
     i = 0
     while i < tila["miina_lkm"]:
         x = random.randint(0, tila["kentta_leveys"]-1)
@@ -98,6 +99,7 @@ def miinoita():
                                    - tila["miina_lkm"]
 
 def laske_miinat():
+# Laskee kentän miinat
     miina = 0
     for x in range(tila["kentta_leveys"]):
         for y in range(tila["kentta_korkeus"]):
