@@ -116,6 +116,7 @@ def laske_miinat():
             miina = 0
 
 def tutki_ja_avaa_ruudut():
+#tutkii ja avaa ruudut. tätä pitäisi parantaa. suorituskyky hyytyy pahasti isoilla ruudukoilla
     haravasto.aloita_ruutujen_piirto()
     tulva = []
     if kentta[tila["hiiri_y"]][tila["hiiri_x"]] == "x":
